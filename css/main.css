@@ -1,0 +1,119 @@
+/***** BASE STYLES *****/
+
+#body {
+    color: #2b2b2b;
+    font-family: 'Roboto Slab Bold', bold, regular;
+}
+
+/***** Grid *****/
+
+
+.full-width {
+    margin: 0 auto;
+    overflow: auto;
+    width: 1200px;
+}
+
+.half-width {
+    float: left;
+    width: 580px;
+}
+
+.third-width {
+    float: left;
+    width: 400px;
+}
+
+/***** HEADER ****/
+
+
+header {
+    align-items: center;
+    background: url('../img/hero.jpg');
+    background-size: cover;
+    display: flex;
+    height: 550px;
+    justify-content: center;
+}
+
+header h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: bold; 
+    padding: 65px 0 65px 25px;
+    text-align: center;
+}
+
+
+/***** WORK *****/
+
+
+#work {
+    background-color :#a78362;
+    color: #ffffff;
+    display: block;
+    overflow: auto;
+    text-align: center;
+}
+
+#work .full-width {
+    padding: 0px 10px 10px 0px;
+}
+
+#work .half-width {
+    height: auto;
+    padding: 10px 10px 10px 10px;
+}
+
+#work img {
+    margin-left: 25px;  
+    max-width: 600px;
+    padding-bottom: 50px;
+}
+
+#work p {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+
+/***** ABOUT *****/
+
+#about {
+    background-color: #975519;
+    color: #ffffff;
+    overflow: auto;
+    text-align: center;
+}
+
+#about .full-width {
+    padding: 0px 10px 10px 0px;
+}
+
+#about img {
+    margin-left: 25px;
+    max-width: 300px;
+    padding-bottom: 50px; 
+}
+
+#about p {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+/***** CONTACT *****/
+
+#contact {
+    background-color: #a78362;
+    color: #ffffff;
+    text-align: center;
+}
+
+#contact ul {
+    list-style: none;
+}
