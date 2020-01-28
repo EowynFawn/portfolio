@@ -4,6 +4,8 @@
        <meta charset="utf-8">
         <title>Eowyn Peterson // Portfolio Site</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" 
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">  
         <link rel="stylesheet" href="css/normalize.css">
        <link rel="stylesheet" href="css/main.css"> 
    </head>
@@ -18,76 +20,82 @@
 
      <main>
 
-      <section id="work">
-       <div class="full-width"><h2>My Portfolio</h2>
-       <div class="half-width">
-          <img src="img/rogue-pickings.png" alt="Rogue Pickings Image" />
-       </div>
-       <div class="half-width">
-           <h3>Rogue Pickings Website</h3>
-           <p> HTML & CSS from Photoshop Design Comp</p>
-       </div>
-    </div>
-       <div class="full-width">
-       <div class="half-width">
-           <img src="img/jubilee-austen.png" alt="Jubilee Austen Site Photo" />
-           </div>
-           <div class="half-width">
-           <h3>Jubilee Austen Projext</h3>
-           <p>HTML & CSS Website Concept</p>
-         </div>
-       </div>
-       
-       <div class="full-width">
-       <div class="half-width">
-           <img src="img/wildhorse-advocacy.png" alt="Hoofbeats ing the West Site Photo" />
-           </div>
-           <div class="half-width">
-           <h3>Hoofbeats in the West</h3>
-           <p>HTML & CSS Website Concept</p>
-        </div>
-       </div>
-      </section>
-
-      <section id="about">
-          <div class="full-width">
-              <h2>About Me</h2>
-
-         <div class="half-width">
-             <h3>Hey friend!</h3>
-             <p>Growing up with a techie dad and a mom who believes in always finding a creative solution to life’s challenges, 
-                web development was just the natural right step for me. After following the self-taught route for several 
-                years I enrolled in Skillcrush’s Break Into Tech Blueprint. In addition to coding I love traveling (western roadtrips are my jam), 
-                horseback riding, and throwing a good kettlebell swing.</p>
-            <h3>Let's work together, what's on your mind?</h3>
-         </div>
-
-         <div class="half-width">
-                <img src="img/profile-photo.png" alt="Profile Photo" />
+      <section class="work">
+        <div class="content-wrapper">
+          <article>
+              <figure>
+                <img src="img/rogue-pickings.png" alt="Rogue Pickings Image" />
+              </figure>
+            <div>
+                <h3>Rogue Pickings Website</h3>
+              <p>
+                <p> HTML & CSS from Photoshop Design Comp</p>
+              </p>
             </div>
+
+            <figure>
+                <img src="img/jubilee-austen.png" alt="Jubilee Austen Site Photo" />
+              </figure>
+            <div>
+                <h3>Jubilee Austen Projext</h3>
+              <p>
+                <p>HTML & CSS Website Concept</p>
+              </p>
+            </div>
+
+            <figure>
+                <img src="img/wildhorse-advocacy.png" alt="Hoofbeats ing the West Site Photo" />
+              </figure>
+            <div>
+                <h3>Hoofbeats in the West</h3>
+              <p>
+                <p>HTML & CSS Website Concept</p>
+              </p>
+            </div>
+          </article>
         </div>
       </section>
+
+      <section class="about">
+            <div class="content-wrapper">
+                <figure>
+                    <img src="img/profile-photo.jpeg" alt="Profile Photo" />
+                </figure>
+              <article>
+                <div>
+                    <h3>About me</h3>
+                  <p>
+                    Growing up with a techie dad and a mom who believes in always finding a creative solution to life’s challenges, 
+                    web development was just the natural right step for me. After following the self-taught route for several 
+                    years I enrolled in Skillcrush’s Break Into Tech Blueprint. In addition to coding I love traveling (western roadtrips are my jam), 
+                    horseback riding, and throwing a good kettlebell swing.
+                  </p>
+                </div>
+              </article>
+            </div>
+          </section>
     </main>
 
-    <footer id="contact">
-            <div class="full-width">
-                <h2>Let's chat...</h2>
-            <div class="third-width">
-                <h4>Hire me</h4>
-                <p>417-630-1070<br>
-                    cherryames96@gmail.com</p>
-            </div>
-            <div class="third-width">
-               <h4>Follow me</h4>
-                 <a href="https://github.com/EowynFawn/"><img src="img/icon-github.psd" alt="github icon" /></a>
-            </div>
-            <div class="third-width">
-                <h4>Meet me</h4>
-                <p>Springfield, MO<br>
-                Let's grab a cup of green tea, or coffee if that's more your thing!</p>
-              </div>
-        Copyright © 2019 || Éowyn Peterson
-        </div>
-    </footer>
+    <footer>
+      <div class="content-wrapper">
+        <div class="footer-content">
+          <address class="contact">
+            <h4>Contact</h4>
+              <p>417-630-1070<br>
+                cherryames96@gmail.com</p>
+          </address>
+           <div class="social">
+               <h4>social</h4>
+              <div class="social-icons">
+                    <p>
+                      <a href="https://github.com/EowynFawn/"><i class="fab fa-github"></i>
+                    </p>
+                  </div>
+                </div>
+           </div>
+    <div class="copyright">
+        <p>Copyright 2020 | Éowyn Peterson</p>
+    </div>
+  </footer>
   </body>
 </html>
