@@ -142,21 +142,10 @@ header h1 {
 
 
 .work {
-  background-color: #a78362;
+  background-color: #a78362; 
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-}
-
-.work h2 {
-  margin-bottom: 40px;
-  line-height: 1;
-}
-
-
-.work h3 {
-  width: 55%;
-  margin: 40px 0;
 }
 
 /* About */
@@ -207,7 +196,7 @@ header h1 {
   .content-wrapper {
     align-items: center;
     display: flex;
-     font-size: 1.5em;
+    font-size: 1.5em;
     justify-content: space-around;
     max-width: 640px;
     margin: 100px 0;
@@ -240,30 +229,22 @@ header h1 {
 
   /* Work */
 
-  .div class {
-    display: flex;
-
-  }
-
-  /* About */
-
-  .about .content-wrapper {
+  .work .content-wrapper {
     display: flex;
     justify-content: space-around;
-    padding: 0 50px 0 50px;
+    padding: 0 0px 0 0px;
     border: solid 1px white;
+    text-align: center;
   }
 
-
-   .about .half-width {
-      display: flex;
-      flex-basis: 50%;
-     
-      justify-content: space-between;
-      padding: 0 10px 0 10px;
-      border: solid 1px purple;  
-      text-align: center;
-      width: 50%;
+   .work .half-width {
+    display: flex;
+    flex-basis: 50%;
+    justify-content: space-between;
+    margin: 50px 10px 50px 10px;
+    border: solid 1px purple;  
+    text-align: center;
+    width: 50%;
    }
 
    img {
@@ -271,7 +252,52 @@ header h1 {
     height: auto;
   }
 
+  /* About */
+
+  .work .content-wrapper {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 50px 0 50px;
+    border: solid 1px white;
   }
+
+   .about .half-width {
+    display: flex;
+    flex-basis: 50%;
+    justify-content: space-between;
+    padding: 10px 10px 10px 10px;
+    border: solid 1px purple;  
+    text-align: center;
+    width: 50%;
+   }
+
+   img {
+    width: 100%;
+    height: auto;
+  }
+
+}
+
+/* FOOTER */
+
+.footer .content-wrapper {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 50px 0 50px;
+  border: solid 1px white;
+}
+
+ .footer .third-width {
+  display: flex;
+  flex-basis: 50%;
+  justify-content: space-between;
+  padding: 10px 10px 10px 10px;
+  border: solid 1px purple;  
+  text-align: center;
+  width: 50%;
+ }
+
+}
 
 
 
