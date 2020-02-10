@@ -25,6 +25,7 @@
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 1.875em;
+    margin: 20px 0;
   }
    
   h3, 
@@ -57,6 +58,7 @@
    .content-wrapper {
      width: 90%;
      margin: 50px 0;
+     border: solid 1px purple; 
    }
   
 /* -------------------- Base Header - Footer Styles -------------------- */
@@ -119,6 +121,7 @@ footer .copyright {
 }
 
 
+
 /***** HEADER ****/
 
 
@@ -144,10 +147,29 @@ header h1 {
 
 
 .work {
+  align-items: center;
   background-color: #a78362; 
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+}
+
+
+.work .full-width {
+  display: flex;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  border: solid 1px purple;  
+}
+
+.work h2 {
+  color: white;
+  display: flex;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500; 
+  padding: 10px 10px 10px 75px;
+  text-align: center; 
+  margin: 0 0 0 0;
 }
 
 /* About */
@@ -159,12 +181,7 @@ header h1 {
   flex-flow: row wrap;
 }
 
-.about h2 {
-
-  line-height: 1;
-}
-
-.about h3 {
+.work h2 {
   width: 55%;
   margin: 20px 0;
 }
@@ -235,18 +252,17 @@ header h1 {
     display: flex;
     justify-content: space-around;
     padding: 0 0 0 0;
-    
     text-align: center;
   }
 
    .work .half-width {
     display: flex;
+    border: solid 1px purple; 
     flex-basis: 50%;
     justify-content: space-between;
-    margin: 0 20px 0 20px;
-    padding: 0 35px 0 50px; 
+    margin: 10px 20px 0 20px;
+    padding: 0px 35px 0 50px; 
     text-align: center;
-    
     width: 50%;
    }
 
@@ -260,15 +276,15 @@ header h1 {
   .about .content-wrapper {
     display: flex;
     justify-content: space-around;
-    padding: 10px 50px 10px 50px;
+    padding: 0px 50px 0px 50px;
+    margin: 0 0 0 0;
   }
 
    .about .half-width {
     display: flex;
     flex-basis: 50%;
     justify-content: space-between;
-    padding: 10px 10px 10px 10px;
- 
+    margin: 65px 65px 65px 65px;
     text-align: center;
     width: 50%;
    }
